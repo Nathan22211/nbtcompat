@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aether:skyroot_planks",
+      "required": false
+    },
+    "nbtcompat:dyed_planks",
+    "nbtcompat:chipped_planks"
+  ]
+}

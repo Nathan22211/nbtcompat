@@ -1,0 +1,110 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "nbtcompat"
+version = "1.0.0"
+displayName = "NBT Compat"
+authors = "nathan"
+description = '''Every Compat–style wooden variants with a tiny registry: one block per kind, wood identity and textures stored in NBT / data components. Embeds Movable Tile Entities (MIT) so furniture block entities can be piston-moved. Create casings remember the log wood (and remapped metal trim).'''
+
+[[mixins]]
+config = "nbtcompat.mixins.json"
+
+[[mixins]]
+config = "nbtcompat_create.mixins.json"
+
+[[mixins]]
+config = "nbtcompat_mekanism.mixins.json"
+
+[[dependencies.nbtcompat]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "movable_tile_entities"
+type = "required"
+versionRange = "[1.2.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "create"
+type = "optional"
+versionRange = "[6.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "moonlight"
+type = "optional"
+versionRange = "[1.21,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "kubejs"
+type = "optional"
+versionRange = "[2101,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "dyenamics"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "delicate_dyes"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "chipped"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "mekanism"
+type = "optional"
+versionRange = "[10.7,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "artisanworktables"
+type = "optional"
+versionRange = "[1.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "mcwroofs"
+type = "optional"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nbtcompat]]
+modId = "jei"
+type = "optional"
+versionRange = "[19,)"
+ordering = "AFTER"
+side = "CLIENT"

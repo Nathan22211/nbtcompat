@@ -1,0 +1,5 @@
+This jar embeds Movable Tile Entities (movable_tile_entities) 1.2.0 for NeoForge 1.21.1
+by N0t_UN_Owen / NotUnaNancyOwen, licensed under the MIT License.
+Source / downloads: https://modrinth.com/mod/movable-block-entities
+
+MIT License applies to the embedded jar; see upstream project for the full license text.

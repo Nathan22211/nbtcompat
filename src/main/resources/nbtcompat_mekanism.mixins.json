@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "dev.nathan.nbtcompat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BasicItemStackToItemStackRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

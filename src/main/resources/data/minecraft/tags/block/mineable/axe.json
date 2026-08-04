@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "nbtcompat:dyed_planks",
+    "nbtcompat:dyed_stairs",
+    "nbtcompat:dyed_slab",
+    "nbtcompat:dyed_fence",
+    "nbtcompat:dyed_fence_gate",
+    "nbtcompat:dyed_door",
+    "nbtcompat:dyed_trapdoor",
+    "nbtcompat:dyed_pressure_plate",
+    "nbtcompat:dyed_button",
+    "nbtcompat:crafting_table",
+    "nbtcompat:bookshelf",
+    "nbtcompat:casing",
+    "nbtcompat:encased_shaft",
+    "nbtcompat:encased_cogwheel",
+    "nbtcompat:encased_large_cogwheel",
+    "nbtcompat:nailed_log",
+    "nbtcompat:center_cut_log",
+    "nbtcompat:edge_cut_log",
+    "nbtcompat:damaged_log",
+    "nbtcompat:planked_log",
+    "nbtcompat:overgrown_log",
+    "nbtcompat:flowering_log",
+    "nbtcompat:firewood_log",
+    "nbtcompat:mixed_log",
+    "nbtcompat:chipped_planks"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "dev.nathan.nbtcompat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CasingBlockMixin",
+    "ItemCasingNameMixin",
+    "ManualApplicationRecipeMixin",
+    "ProcessingRecipeMixin",
+    "KineticBlockEntityMixin",
+    "EncasableBlockMixin",
+    "MillstoneBlockEntityMixin",
+    "CrushingWheelControllerBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

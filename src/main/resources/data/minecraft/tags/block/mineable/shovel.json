@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "nbtcompat:stone_gravel",
+    "nbtcompat:stone_sand"
+  ]
+}

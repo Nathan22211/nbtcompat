@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aether:stripped_skyroot_log",
+      "required": false
+    },
+    {
+      "id": "missingtrees:stripped_azalea_log",
+      "required": false
+    },
+    {
+      "id": "missingtrees:stripped_apple_log",
+      "required": false
+    },
+    {
+      "id": "missingtrees:stripped_scots_pine_log",
+      "required": false
+    },
+    {
+      "id": "missingtrees:stripped_swamp_oak_log",
+      "required": false
+    }
+  ]
+}

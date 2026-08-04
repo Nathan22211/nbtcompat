@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "nbtcompat:cobbled_stone",
+    "nbtcompat:cobbled_stone_stairs",
+    "nbtcompat:cobbled_stone_slab",
+    "nbtcompat:cobbled_stone_wall",
+    "nbtcompat:chipped_stone"
+  ]
+}

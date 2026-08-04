@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "type": "nbtcompat:wood_crafting_tops"
+    },
+    {
+      "type": "nbtcompat:encased_cog_sides"
+    },
+    {
+      "type": "nbtcompat:chipped_templates"
+    },
+    {
+      "type": "nbtcompat:cut_logs"
+    },
+    {
+      "type": "nbtcompat:dyed_doors"
+    }
+  ]
+}

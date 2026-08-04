@@ -1,0 +1,33 @@
+# Build
+/build/
+/out/
+/bin/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Downloaded compile deps (build.sh fills libs/)
+/libs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime / local
+run/
+runs/
+*.log
+.gradle/
+nbtcompat/

@@ -1,0 +1,1 @@
+dev.nathan.nbtcompat.kubejs.NbtCompatKubeJSPlugin

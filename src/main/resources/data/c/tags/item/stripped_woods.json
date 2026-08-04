@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aether:stripped_skyroot_wood",
+      "required": false
+    },
+    {
+      "id": "missingtrees:stripped_azalea_wood",
+      "required": false
+    },
+    {
+      "id": "missingtrees:stripped_apple_wood",
+      "required": false
+    },
+    {
+      "id": "missingtrees:stripped_scots_pine_wood",
+      "required": false
+    },
+    {
+      "id": "missingtrees:stripped_swamp_oak_wood",
+      "required": false
+    }
+  ]
+}

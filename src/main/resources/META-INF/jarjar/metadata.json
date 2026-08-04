@@ -1,0 +1,16 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "com.notunanancyowen",
+        "artifact": "movable_tile_entities-neoforge"
+      },
+      "version": {
+        "range": "[1.2.0,)",
+        "artifactVersion": "1.2.0"
+      },
+      "path": "META-INF/jarjar/movable_tile_entities-neoforge-1.2.0-1.21.1.jar",
+      "isObfuscated": false
+    }
+  ]
+}
