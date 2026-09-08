@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "nbtcompat:crafting_table",
+    "nbtcompat:bookshelf",
+    "nbtcompat:nailed_log",
+    "nbtcompat:center_cut_log",
+    "nbtcompat:edge_cut_log",
+    "nbtcompat:damaged_log",
+    "nbtcompat:planked_log",
+    "nbtcompat:overgrown_log",
+    "nbtcompat:flowering_log",
+    "nbtcompat:firewood_log",
+    "nbtcompat:mixed_log",
+    "nbtcompat:chipped_planks",
+    "nbtcompat:dyed_planks",
+    "nbtcompat:cobbled_stone",
+    "nbtcompat:stone_gravel",
+    "nbtcompat:stone_sand",
+    "nbtcompat:chipped_stone"
+  ]
+}

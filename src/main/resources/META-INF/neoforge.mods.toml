@@ -48,6 +48,14 @@ side = "BOTH"
 # Soft depend: casing / encased blocks + Create mixins register only when Create is present.
 
 [[dependencies.nbtcompat]]
+modId = "chiselsandbits"
+type = "optional"
+versionRange = "[21.1,)"
+ordering = "AFTER"
+side = "BOTH"
+# Soft depend: full-cube NBT identity as C&B IStateVariant when Chisels & Bits is present.
+
+[[dependencies.nbtcompat]]
 modId = "moonlight"
 type = "optional"
 versionRange = "[1.21,)"

@@ -44,6 +44,25 @@ add_jar "$AWT"
   && add_jar /home/nathan/artisan-worktables/build/libs/artisanworktables-1.0.0.jar
 
 add_jar "$INST/mods/create-1.21.1-6.0.10.jar"
+# Chisels & Bits API + Scena core (soft-dep compile)
+BUILDING="${BUILDING:-/home/nathan/.local/share/atlauncher/instances/building}"
+if [[ ! -f "$ROOT/libs/chisels-and-bits-api-21.1.32.jar" || ! -f "$ROOT/libs/scena-core-21.1.20.jar" || ! -f "$ROOT/libs/scena-neoforge-21.1.20.jar" ]]; then
+  if [[ -f "$BUILDING/mods/chisels-and-bits-neoforge-21.1.32.jar" ]]; then
+    JJ_CB="$OUT/cb-jarjar"
+    mkdir -p "$JJ_CB" "$ROOT/libs"
+    (
+      cd "$JJ_CB"
+      jar xf "$BUILDING/mods/chisels-and-bits-neoforge-21.1.32.jar" META-INF/jarjar/chisels-and-bits-api-21.1.32.jar META-INF/jarjar/neoforge-21.1.20.jar
+      jar xf META-INF/jarjar/neoforge-21.1.20.jar META-INF/jarjar/scena-core-21.1.20.jar
+      cp META-INF/jarjar/chisels-and-bits-api-21.1.32.jar "$ROOT/libs/"
+      cp META-INF/jarjar/scena-core-21.1.20.jar "$ROOT/libs/"
+      cp META-INF/jarjar/neoforge-21.1.20.jar "$ROOT/libs/scena-neoforge-21.1.20.jar"
+    )
+  fi
+fi
+add_jar "$ROOT/libs/chisels-and-bits-api-21.1.32.jar"
+add_jar "$ROOT/libs/scena-core-21.1.20.jar"
+add_jar "$ROOT/libs/scena-neoforge-21.1.20.jar"
 CHIPPED=$(echo "$INST"/mods/chipped-*.jar | awk '{print $1}')
 add_jar "$CHIPPED"
 RLIB=$(echo "$INST"/mods/resourcefullib-*.jar | awk '{print $1}')
