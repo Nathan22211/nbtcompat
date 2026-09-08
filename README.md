@@ -2,7 +2,7 @@
 
 Every Compat–style variants without registry bloat: **one registered block** per kind; identity lives in **block-entity NBT** / **item data components**.
 
-Covers wood furniture, dyed wood, Chipped-style planks/stone/doors, Create casings, Macaw-style roofs, and stone cobble → gravel → sand — driven by indexes you can extend from KubeJS.
+Covers wood furniture, dyed wood, Chipped-style planks/stone/doors, Create casings, Macaw-style roofs / gutters / awnings, and stone cobble → gravel → sand — driven by indexes you can extend from KubeJS.
 
 ## Requirements
 
@@ -13,6 +13,7 @@ Covers wood furniture, dyed wood, Chipped-style planks/stone/doors, Create casin
   - [Artisan Worktables](https://www.curseforge.com/minecraft/mc-mods/artisan-worktables) — dual-register carpenter recipes
   - JEI 19.x — subtypes / recipe views
   - Chipped, Create, Mekanism — richer content when present
+  - [Macaw's Roofs](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs) — NBT gutter models/textures load from this mod (gutters are useless without it)
 
 ## Build
 
@@ -183,7 +184,11 @@ NbtCompatEvents.defineRecipes(event => {
 })
 ```
 
-Roofs, stone cutting, and most Chipped stone / door style recipes ship as **datapack JSON** (not `defineRecipes`).
+Roofs, gutters, stone cutting, and most Chipped stone / door style recipes ship as **datapack JSON** (not `defineRecipes`).
+
+**Gutters:** `nbtcompat:rain_gutter` / `nbtcompat:gutter_downspout` store dye in `nbtcompat:dye`. Geometry and metal/water textures come from Macaw Roofs at runtime (not vendored). Bulk-dye Macaw’s undyed `gutter_base` / `gutter_middle` (8 + dye → 8 NBT), recolor, or convert old colored Macaw blocks. Macaw’s 32 colored gutter recipes are disabled while this mod is present.
+
+**Awnings:** `nbtcompat:striped_awning` stores dye the same way. Geometry parents Macaw awning models; only the colored wool stripe is remapped (`{color}_wool`), white stripe stays. Craft from carpets (Macaw `BAB` pattern), recolor with dye, or convert old Macaw colored awnings. Macaw’s 15 colored awning recipes are disabled.
 
 ---
 

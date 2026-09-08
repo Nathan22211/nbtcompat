@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "nbtcompat:casing"
+    {
+      "id": "nbtcompat:casing",
+      "required": false
+    }
   ]
 }

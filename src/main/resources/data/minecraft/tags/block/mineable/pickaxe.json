@@ -5,6 +5,12 @@
     "nbtcompat:cobbled_stone_stairs",
     "nbtcompat:cobbled_stone_slab",
     "nbtcompat:cobbled_stone_wall",
-    "nbtcompat:chipped_stone"
+    "nbtcompat:chipped_stone",
+    "nbtcompat:rain_gutter",
+    "nbtcompat:gutter_downspout",
+    {
+      "id": "#create:casing",
+      "required": false
+    }
   ]
 }

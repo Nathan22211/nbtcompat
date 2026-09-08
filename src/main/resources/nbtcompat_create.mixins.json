@@ -6,6 +6,7 @@
   "mixins": [
     "CasingBlockMixin",
     "ItemCasingNameMixin",
+    "ItemApplicationRecipeMixin",
     "ManualApplicationRecipeMixin",
     "ProcessingRecipeMixin",
     "KineticBlockEntityMixin",

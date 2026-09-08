@@ -12,10 +12,22 @@
     "nbtcompat:dyed_button",
     "nbtcompat:crafting_table",
     "nbtcompat:bookshelf",
-    "nbtcompat:casing",
-    "nbtcompat:encased_shaft",
-    "nbtcompat:encased_cogwheel",
-    "nbtcompat:encased_large_cogwheel",
+    {
+      "id": "#create:casing",
+      "required": false
+    },
+    {
+      "id": "nbtcompat:encased_shaft",
+      "required": false
+    },
+    {
+      "id": "nbtcompat:encased_cogwheel",
+      "required": false
+    },
+    {
+      "id": "nbtcompat:encased_large_cogwheel",
+      "required": false
+    },
     "nbtcompat:nailed_log",
     "nbtcompat:center_cut_log",
     "nbtcompat:edge_cut_log",
